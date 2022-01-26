@@ -1,6 +1,6 @@
 * {padding:0; margin:0; list-style-type: none; text-decoration: none;  box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
 .header h1{text-align: center; background-image: linear-gradient(to right, black, white, white, black);
-         color: black; font-size: 30px;  font-family: sofia; color: red; margin: 0px; padding: 5px; text-transform: uppercase;}
+         color: black; font-size: 35px;  font-family: sofia; color: red; margin: 0px; padding: 5px; text-transform: uppercase;}
    
 .content-wrapper {width:80%; background-color: blue;}
 .aside-wrapper {width:20%;  height:70vw; }
@@ -8,18 +8,18 @@
 .nav-container{display:flex;}
 .navlist {display:flex;}
 .ul-list {display:none;}
-.fa-bars  {font-size:30px; color:white; padding: 0; margin:0;}
+.fa-bars  {font-size:30px; color:white; padding: 0; margin:0; cursor: pointer;}
 .nav1, .nav3 {width:40%;font-weight: bold; text-transform: capitalize; display: flex; justify-content: center; align-items: center; background-color: yellow;}
 .nav-2 {width:20%;}
-.bars {display:flex; justify-content: flex-end; padding:0 5px 0 0;}
+.bars {display:flex; justify-content: flex-end; padding:0 5px 0 0; }
 .nav-display {overflow: hidden; color: white; height:0; }
-.nav-display a {text-align: center; display: block; color: black; padding:5px 0;}
-.fa-times {font-size:30px; color:white; display:none;}
+.nav-display a {text-align: center; display: block; color: black; padding:5px 0; text-transform: capitalize;}
+.fa-times {font-size:30px; color:white; display:none; cursor: pointer;}
 .nav-display .link1 {color:red;}
 .nav-display .link1:hover {background-color:gray ; color:white; text-decoration: underline;}
 .nav-display .link1:active {background-color: black;}
 .content-container-wrapper {display: flex; height:1000px; justify-content: center; width:100%; background-color: black;}  
-.content-container {width:95%; background-color: gray; padding:10px 0 0 0;} 
+.content-container {width:95%; background-color: black; padding:10px 0 0 0;} 
 .slider {display: flex; width:100%; height:200px;}
 .arrow-left, .arrow-right{cursor:pointer; display:flex;justify-content: center; align-items: center; font-size:30px; width:5%;}
 .table-slider {width:90%; }
@@ -27,11 +27,10 @@
 .table-slider {overflow: hidden;}
 .table img{width:100%; height:200px;}
 .table-container {display: flex; }
-.winning {writing-mode: vertical-rl; background-color:green; display: flex; justify-content: center; align-items: center; transform: rotate(180deg); }
-.table-wrapper {height:200px; background-color: red;}
-.winning {height:170px; width:5%;}
+.winning  {height:170px; width:5%; writing-mode: vertical-rl; background-color:gray; color:brown; text-transform:uppercase; display: flex; justify-content: center; align-items: center; transform: rotate(180deg); }
+.table-wrapper {height:200px; }
 .table-games {width:90%; }
-.table-content {height:20%; background-color: white; display:flex; justify-content: center; align-items: center; }
+.table-content {height:20%; background-color: white; display:flex; justify-content: center; align-items: center; text-transform: uppercase; color: green;}
 .table-1 {font-size:13px; margin: auto; width:100%; height:80%; border: 1px solid black; border-collapse: collapse;}
 .table-1 th {text-align: center; background-color: black; color:white; text-transform: uppercase; font-size: 11px;;}
 .table-1 td {background-color: green; color:white; text-align: center; font-size:11px; text-transform: capitalize;}
@@ -41,6 +40,19 @@ caption {text-transform: uppercase; font-size:20px; background-color: white; pad
 .table-2 td {background-color:blue;}
 .table-3 td {background-color: brown;}
 .table-4 td  {background-color: burlywood;}
+.content-container2 p {padding:20px 10px; color:white; text-align: justify;}
+.content-container2 p::first-letter {color:red; font-size: 20px; text-transform: uppercase;}
+.image-wrapper {width:90%;}
+.image-wrapper img {width:100%}
+.content-container3 {display: flex; justify-content: center; align-items: center;}
+.content-container4 {color:white; text-align: center; display: flex; justify-content: center;}
+.contact{background-color: white; color:red; padding:10px; font-size: 25px; text-transform: capitalize;}
+.contact-wrapper {width:90%; border-radius: 10px;}
+.email {background-color: gray; color:yellow;}
+.email p {padding:10px; font-size: 20px; text-align: left;}
+.content-container4 {padding:20px 0;}
+
+
 
 
 
