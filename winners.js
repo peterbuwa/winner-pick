@@ -15,3 +15,44 @@ bars.addEventListener("click", () =>{
         bars.classList.add("fa-bars");
     }
 })
+
+let sliderIndex = 0;
+plusSlides();
+function plusSlides(){
+    let table = document.getElementsByClassName("table");
+    for(let i = 0; i < table.length; i++){
+        table[i].style.display = "none";
+    }
+    sliderIndex++;
+    if(sliderIndex > table.length){sliderIndex = 1;}
+    table[sliderIndex -1].style.display = "block";
+    setTimeout(plusSlides, 2000)
+}
+
+let left = document.querySelector(".arrow-left");
+let right = document.querySelector(".arrow-right");
+left.addEventListener("click", function(){
+    let table = document.getElementsByClassName("table");
+    sliderIndex += 1;
+    if (sliderIndex > table.length){
+        sliderIndex = 1;
+    }
+
+    for (let index = 0; index < table.length; index++){
+        table[index].style.display = "none";
+    }
+    table[sliderIndex-1].style.display="block";
+})
+
+right.addEventListener("click", function(){
+    let table = document.getElementsByClassName("table")
+    sliderIndex -= 1;
+    if(sliderIndex < 1){
+        sliderIndex = table.length;
+    }
+    for(let index=0; index < table.length; index++){
+        table[index].style.display="none";
+        table[sliderIndex - 1].style.display="block"
+    }
+
+})

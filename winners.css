@@ -21,11 +21,29 @@
 .content-container-wrapper {display: flex; height:1000px; justify-content: center; width:100%; background-color: black;}  
 .content-container {width:95%; background-color: gray; padding:10px 0 0 0;} 
 .slider {display: flex; width:100%; height:200px;}
-.arrow-left, .arrow-right{display: flex;justify-content: center; align-items: center; font-size:30px; width:10%;}
-.table-slider {width:80%;}
+.arrow-left, .arrow-right{cursor:pointer; display:flex;justify-content: center; align-items: center; font-size:30px; width:5%;}
+.table-slider {width:90%; }
 .content-wrapper {width:100%; background-color: blue;}
 .table-slider {overflow: hidden;}
 .table img{width:100%; height:200px;}
+.table-container {display: flex; }
+.winning {writing-mode: vertical-rl; background-color:green; display: flex; justify-content: center; align-items: center; transform: rotate(180deg); }
+.table-wrapper {height:200px; background-color: red;}
+.winning {height:170px; width:7%;}
+.table-games {width:86%; }
+.table-content {height:20%; background-color: white; display:flex; justify-content: center; align-items: center; }
+.table-1 {font-size:13px; margin: auto; width:100%; height:80%; border: 1px solid black; border-collapse: collapse;}
+.table-1 th {text-align: center; background-color: black; color:white; text-transform: uppercase;}
+.table-1 td {background-color: green; color:white; padding:3px;}
+#result {background-color:white; color: green; text-align: center;}
+caption {text-transform: uppercase; font-size:20px; background-color: white; padding:5px;}
+.table-1 tr, .table-1 td{border:1px solid black;}
+.table-2 td {background-color:blue;}
+.table-3 td {background-color: brown;}
+.table-4 td  {background-color: burlywood;}
+
+
+
  
 
 @media screen and (min-width:420px){
