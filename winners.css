@@ -1,4 +1,4 @@
-* {padding:0; margin:0; list-style-type: none; text-decoration: none;  box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
+* {padding:0; margin:0; list-style-type: none; text-decoration: none;  box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; }
 .header h1{text-align: center; background-image: linear-gradient(to right, black, white, white, black);
          color: black; font-size: 35px;  font-family: sofia; color: red; margin: 0px; padding: 5px; text-transform: uppercase;}
    
@@ -18,7 +18,7 @@
 .nav-display .link1 {color:red;}
 .nav-display .link1:hover {background-color:gray ; color:white; text-decoration: underline;}
 .nav-display .link1:active {background-color: black;}
-.content-container-wrapper {display: flex; min-height:1000px; justify-content: center; width:100%; background-color: black;}  
+.content-container-wrapper {display: flex;  justify-content: center; width:100%; background-color: black;}  
 .content-container {width:95%; background-color: black; padding:10px 0 0 0;} 
 .slider {display: flex; width:100%; height:200px;}
 .arrow-left, .arrow-right{cursor:pointer; display:flex;justify-content: center; align-items: center; font-size:30px; width:5%; background-color: black; color:white;}
@@ -74,6 +74,22 @@ span {font-size: 18px; color: black; font-weight: bold;}
   .t-content4 {padding: 2px;}
   .t-content4 p {background-color: yellow; color:black; border-radius: 10px; width:95%; margin: auto; font-size: 13px; font-weight: bold; text-transform: capitalize;}
  .border-right {border-right:3px solid gold;}
+ .container5-wrapper {color:white; display: flex;justify-content: center;}
+ .container5 h2 {font-size:20px; text-align: center; text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;}
+ .container5-header {width:95%; background-color:gray; padding: 5px; border-radius:10px; margin: auto;}
+ .container5-ticket1 .ticket1 th {text-transform: uppercase; font-weight:bold; text-align: center; padding: 3px; background-color: blanchedalmond; color:black}
+ .container5-ticket1 {font-size:12px; margin:10px 0 0 0;}
+ .container5-ticket1 .ticket1 td {text-transform: capitalize; text-align: center; padding:3px 2px; background-color: green; color:white;}
+ .container5-caption {color: green; text-align: center; text-transform: uppercase;}
+ .viewmore {padding:5px; color:white;display: flex; justify-content: flex-end;}
+ .viewmore p {color:white;  font-size:12px}
+ .viewmore p:hover {color:gray; text-decoration: underline;}
+ .more-ticket {display: none;}
+ .viewmore .block {cursor: pointer;}
+                    /*  container-5
+ .container5-wrapper {color:white; display: flex; justify-content: center; padding:5px;}
+ .container5 {width:95%; font-size: 20px; text-align: center; background-color:gray; padding: 5px; border-radius: 10px;}
+ .container5 h2 {font-size: 20px; text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;}*/
 
   
   

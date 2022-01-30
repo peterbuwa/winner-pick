@@ -56,3 +56,13 @@ right.addEventListener("click", function(){
     }
 
 })
+
+            //table view more
+
+let block = document.querySelector(".block");
+let ticket = document.querySelector(".more-ticket")
+let viewmore = document.querySelector(".viewmore")
+block.addEventListener("click", function(){
+    ticket.style.display="block";
+    viewmore.style.display="none";
+})
