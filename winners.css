@@ -5,6 +5,7 @@
 .content-wrapper {width:80%; background-color: blue;}
 .aside-wrapper {width:20%;  height:70vw; }
 .nav-wrapper {  background-color: black; color: green; }
+.table {animation:fade ease 2s forwards; opacity: 0;}
 .nav-container{display:flex;}
 .navlist {display:flex;}
 .ul-list {display:none;}
@@ -86,7 +87,22 @@ span {font-size: 18px; color: black; font-weight: bold;}
  .viewmore p:hover {color:gray; text-decoration: underline;}
  .more-ticket {display: none;}
  .viewmore .block {cursor: pointer;}
-                    /*  container-5
+ .ticketoffer-wrapper {color:white; display:flex;justify-content: center;}
+ .ticketoffer-container h2 {text-transform: uppercase; font-size:23px;background-color: gray; width:80%;margin: auto; border-radius:10px; padding:3px; text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; text-align:center; }
+  .ticketoffer-container p{ padding:20px 5px 5px 5px;}    
+  .container6-wrapper {color:white; padding:10px 0; } 
+ .container6 h2 {color:black; text-align: center; text-transform: uppercase; font-size:20px;}
+ .container6 {width:75%;margin: auto; background-image: linear-gradient(white,white,green); font-size: 16px; border-radius: 10px; padding:3px; animation: updown 1s infinite;}
+ .payment-image {width:90%; margin: auto; padding:20px 0 0 0;}
+ .payment-image img {width:100%; }
+
+ @keyframes fade {
+     to{opacity:1; transform: rotate(360deg);}
+ }
+ 
+ 
+ 
+                            /*  container-5
  .container5-wrapper {color:white; display: flex; justify-content: center; padding:5px;}
  .container5 {width:95%; font-size: 20px; text-align: center; background-color:gray; padding: 5px; border-radius: 10px;}
  .container5 h2 {font-size: 20px; text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;}*/
@@ -96,7 +112,14 @@ span {font-size: 18px; color: black; font-weight: bold;}
 
 
 
-
+@keyframes updown {
+    0% {
+        background-image: linear-gradient(white,white,green);
+      }
+      100% {
+        background-image: linear-gradient(green,white,white);
+      }
+}
  
 @keyframes rotate {
     0% {transform: rotate(0deg);}
