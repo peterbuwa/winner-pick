@@ -66,3 +66,9 @@ block.addEventListener("click", function(){
     ticket.style.display="block";
     viewmore.style.display="none";
 })
+
+
+
+Function myComment(){
+    alert "come"
+}

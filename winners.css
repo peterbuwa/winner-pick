@@ -130,6 +130,54 @@ span {font-size: 18px; color: black; font-weight: bold;}
 .container11-table th, .container11-table td {font-size: 12px; padding:2px; color:#fff; text-align: center;}
 .container11-table th   {background-color: blanchedalmond; text-transform: uppercase; color: black;}
 .container11-table td {background-color: green;}
+.container11 p {text-align: justify; color:white;}
+.container11 {padding:10px;}
+.container12 {width:90%; display: flex; justify-content: center; justify-content:space-between; height:50px;} 
+.container12-wrapper {display: flex; justify-content: center; padding:15px 0 0 0;}
+.container12-content {width:27.33%; }
+.container12-content img {height:100%; width: 100%; }
+.container13-wrapper {padding:15px 0 0 0; display: flex; justify-content: center; color:white; font-size: 12px;}
+.container13 table {width:100%; text-align: center;}
+.container13 table caption {white-space: nowrap; font-size: 18px; font-weight: bold; color: black;}
+.container13 {width:95%;}
+.container13 table th, .container13 table td {padding:2px; }
+.container13 table th {text-transform: uppercase; font-weight: bold;  background-color: blanchedalmond; color: black;}
+.container13 table td {text-transform: capitalize; background-color: green; color: white;}
+.container14 {color: white; text-align: justify;}
+.container14-header h2 {text-transform: uppercase; font-weight: bold; text-align: center;}
+.container14-header {width:90%; margin: auto; background-color: gray; border-radius:10px;}
+.container14-content, .container14-content1{padding:20px 5px 0 5px;}
+.container15 caption {color:black; background-color: honeydew; font-weight: bold;}
+.container15 {width:95%;}
+.container15-wrapper {display: flex;justify-content: center; padding:20px 0 0 0;}
+.container15 table {color:white; font-size: 12px; text-align: center;}
+.container15 table th {background-color: yellowgreen; padding:2px; color:black; text-transform: uppercase;}
+.container15 table td {padding:2px; background-color: green; text-transform:capitalize ;}
+.fa-user {font-size:20px; color:black;}
+.container16-wrapper {padding:20px 0 0 0; }
+.container16 {background-color: white; min-height: 300px;}
+.container16-content1 {display: flex;}
+.container16-content2 {flex:1; text-align: center;}
+.container16-content3    {flex:4;}
+.comment h2  {text-align: center; text-transform: capitalize; padding:0 0 20px 0;}
+.container16-content3 p {font-size: 14px; padding:0 0 20px 0;}
+.textarea {padding:20px 0 0 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  @keyframes fade {
      to{opacity:1; transform: rotate(360deg);}
