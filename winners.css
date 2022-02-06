@@ -2,10 +2,10 @@
 .header h1{text-align: center; background-image: linear-gradient(to right, black, white, white, black);
          color: black; font-size: 35px;  font-family: sofia; color: red; margin: 0px; padding: 5px; text-transform: uppercase;}
    
-.content-wrapper {width:80%; background-color: blue;}
+/* .content-wrapper {width:80%; background-color:gray !important;} */
 .aside-wrapper {width:20%;  height:70vw; }
 .nav-wrapper {  background-color: black; color: green; }
-.table {animation:fade ease 2s forwards; opacity: 0;}
+.table {animation:fade ease 2s forwards; opacity: 0; transform: scale(0.1);}
 .nav-container{display:flex;}
 .navlist {display:flex;}
 .ul-list {display:none;}
@@ -24,7 +24,7 @@
 .slider {display: flex; width:100%; height:200px;}
 .arrow-left, .arrow-right{cursor:pointer; display:flex;justify-content: center; align-items: center; font-size:30px; width:5%; background-color: black; color:white;}
 .table-slider {width:90%; }
-.content-wrapper {width:100%; background-color: blue;}
+.content-wrapper {width:100%; background-color: gray;}
 .table-slider {overflow: hidden;}
 .table img{width:100%; height:200px;}
 .table-container {display: flex; }
@@ -83,7 +83,7 @@ span {font-size: 18px; color: black; font-weight: bold;}
  .container5-ticket1 .ticket1 td {text-transform: capitalize; text-align: center; padding:3px 2px; background-color: green; color:white;}
  .container5-caption {color: green; text-align: center; text-transform: uppercase;}
  .viewmore {padding:5px; color:white;display: flex; justify-content: flex-end;}
- .viewmore p {color:white;  font-size:12px}
+ .viewmore p {font-size: 12px; background-color: white; color: black; text-decoration: none !important;font-size:12px; padding:2px; border-radius: 10px;}
  .viewmore p:hover {color:gray; text-decoration: underline;}
  .more-ticket {display: none;}
  .viewmore .block {cursor: pointer;}
@@ -95,11 +95,42 @@ span {font-size: 18px; color: black; font-weight: bold;}
  .container6 {width:75%;margin: auto; background-image: linear-gradient(white,white,green); font-size: 16px; border-radius: 10px; padding:3px; animation: updown 1s infinite;}
  .payment-image {width:90%; margin: auto; padding:20px 0 0 0;}
  .payment-image img {width:100%; }
+ .container7-content {background-color: gray;  border-radius:10px; padding:3px; white-space: nowrap;}
+ .container7-content h2 {text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; color:white; text-align: center; text-transform: uppercase; font-size: 23px;}
+.container7-summary p {color:white; text-align: justify; padding:10px 4px 4px 4px;}
+.container7-wrapper {padding:30px  0 0 0;}
+.container8-wrapper{color:white; font-size: 12px; display:flex; justify-content: center; padding:20px 0 0 0;}
+.container8-table-content th{text-align: center; background-color: blanchedalmond; color:black; text-align:center; font-weight: bold; padding:3px; text-transform: uppercase;}
+.container8-table-content td {background-color: green; color:#fff; text-align: center; padding:3px; text-transform: capitalize;}
+.container8-table-content {width:95%;}
+.container8-table-content caption {color:black; font-weight:bold;}
+.container9 {width:90%; height: 200px; overflow: hidden;}
+.container9-content {height:33.33%; overflow: hidden; width:100%; display: flex; justify-content: space-between;}
+.container9-img {width:30.33%; height:100%; color:yellow; text-transform: uppercase; text-align: center; font-size: 20px;}
+.container9-img  img{width:100%;  height: 100%;}
+.container9-content2  {margin:5px 0 5px 0;}
+.container9-wrapper  {display: flex; justify-content: center; padding:20px 0 0 0;}
+.bet-now {animation:container9 1s infinite;}
+.container10  {width:95%; color: #fff;}
+.container10 caption {white-space: nowrap; color: black; font-weight: bold;}
+.achieved-vip h2 { text-transform: uppercase; font-size: 22px; white-space: nowrap; text-align:center;}
+.achieved-vip {background-color: gray; width:95%; margin: 0 0 20px 0;text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; color:white; border-radius: 10px;}
+.container10 table{ font-size: 12px;}
+.container10-wrapper {display: flex; flex-wrap: wrap; justify-content: center;}
+.container10 table th, .container10 table td {padding: 2px; text-align: center; text-transform: capitalize;}
+.container10 table th {text-transform: uppercase; background-color: blanchedalmond; color:black;}
+.container10 table td {background-color: green;}
+
+
+
 
  @keyframes fade {
      to{opacity:1; transform: rotate(360deg);}
  }
  
+ @keyframes container9 {
+     to {background-color: gray; color:red;}
+ }
  
  
                             /*  container-5
@@ -122,8 +153,8 @@ span {font-size: 18px; color: black; font-weight: bold;}
 }
  
 @keyframes rotate {
-    0% {transform: rotate(0deg);}
-    100%{transform: rotate(360deg);}
+    0% {transform: rotate(0deg); }
+    100%{transform: rotate(360deg); }
 }
 
 @keyframes signboard {

@@ -26,7 +26,7 @@ function plusSlides(){
     sliderIndex++;
     if(sliderIndex > table.length){sliderIndex = 1;}
     table[sliderIndex -1].style.display = "block";
-    setTimeout(plusSlides, 6000)
+    setTimeout(plusSlides, 7000)
 }
 
 let left = document.querySelector(".arrow-left");
