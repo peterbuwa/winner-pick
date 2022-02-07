@@ -69,6 +69,6 @@ block.addEventListener("click", function(){
 
 
 
-Function myComment(){
-    alert "come"
+function myComment(){
+    alert ("sucessfully submitted");
 }
